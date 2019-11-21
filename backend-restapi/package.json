@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Serverless.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.475.0"
+  }
+}
