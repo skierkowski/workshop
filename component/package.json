@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "preinstall": "rm serverless.yml && mv serverless.hack serverless.yml && npm install --global serverless@components"
+    "preinstall": "rm serverless.yml && mv serverless.hack serverless.yml"
+    "postinstall":"npm install --global serverless@components"
   },
   "license": "MIT",
   "dependencies": {
