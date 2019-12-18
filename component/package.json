@@ -16,7 +16,7 @@
     "react": "^16.5.2",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.5.2",
-    "serverless": "^1.59.3-components-v2-beta"
+    "serverless": "=1.59.3-components-v2-beta"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
