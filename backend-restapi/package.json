@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "echo $HELLO"
+  },
   "author": "Serverless.com",
   "license": "MIT",
   "dependencies": {},
