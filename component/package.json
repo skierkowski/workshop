@@ -5,8 +5,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "preinstall": "rm serverless.yml && mv serverless.hack serverless.yml",
-    "postinstall":"npm install --global serverless@components"
+    "preinstall": "rm serverless.yml && mv serverless.hack serverless.yml"
   },
   "license": "MIT",
   "dependencies": {
@@ -16,7 +15,7 @@
     "react": "^16.5.2",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.5.2",
-    "serverless": "=1.59.3-components-v2-beta"
+    "serverless": "1.59.3-components-v2-beta"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
