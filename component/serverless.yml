@@ -2,6 +2,7 @@ component: website
 org: componentstest
 app: website
 name: landing-page
+service: landing-page
 
 inputs:
   src:
