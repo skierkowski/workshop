@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "preinstall": "rm serverless.yml && mv serverless.hack serverless.yml"
   },
   "license": "MIT",
   "dependencies": {
