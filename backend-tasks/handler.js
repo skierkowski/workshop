@@ -18,7 +18,7 @@ const testEndpoint = (event, context, callback) => {
   }
 
   // TODO: Add other query parameters to generate other function alerts.
-  console.log('Testing URL: ', url)
+//   console.log('Testing URL: ', url)
 
   // API Request Function
   async function httpRequest() {
