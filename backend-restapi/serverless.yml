@@ -1,5 +1,5 @@
-org: ac360 # Enter your tenant name here
-app: demos # Enter your application name here
+org: skierkowski # Enter your tenant name here
+app: workshop # Enter your application name here
 service: fullstack-restapi # update
 
 provider:
