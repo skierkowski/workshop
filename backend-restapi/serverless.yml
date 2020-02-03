@@ -24,4 +24,3 @@ functions:
           path: submit
           method: post
           cors: true
-
