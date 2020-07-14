@@ -7,7 +7,7 @@ provider:
 
 custom: # Centralize variables here
   stage: ${opt:stage, self:provider.stage}
-  database_submissions_name: submissions-${self:custom.stage}
+  database_submissi ons_name: submissions-${self:custom.stage}
   database_submissions_region: submissions-${self:provider.region}
 
 resources:
@@ -31,4 +31,3 @@ outputs:
   database_submissions_name: ${self:custom.database_submissions_name}
   database_submissions_region: ${self:custom.database_submissions_region}
 
-  
