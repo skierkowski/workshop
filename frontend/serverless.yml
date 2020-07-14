@@ -1,4 +1,4 @@
-org: skierkowski # Enter your tenant name here
+org: workshopskierkowski # Enter your tenant name here
 app: workshop # Enter your application name here
 service: fullstack-website
 
