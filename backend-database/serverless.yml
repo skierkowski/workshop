@@ -30,5 +30,3 @@ resources:
 outputs:
   database_submissions_name: ${self:custom.database_submissions_name}
   database_submissions_region: ${self:custom.database_submissions_region}
-
-  
